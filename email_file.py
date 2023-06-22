@@ -17,7 +17,7 @@ def send_mail():
     email.send(to=row.email,
                subject=f"Daily News Abount {row.interest}",
                contents=f"Hi {row.name} \n See what's on about {row.interest} today. \n {news_feed.get()}")
-
+a = ""
 
 while True:
     executed = False
